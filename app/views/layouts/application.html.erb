@@ -10,6 +10,16 @@
   </head>
 
   <body>
+    <div class="header">
+      <h1>Welcome to my Social Media site</h1>
+    </div>
+     <ul class="navbar">
+      <li><%=link_to "Home", posts_path%></li>
+      <li><a href="">News</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">Settings</a></li>
+    </ul> 
+
     <%= yield %>
   </body>
 </html>

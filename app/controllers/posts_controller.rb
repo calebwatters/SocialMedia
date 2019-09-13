@@ -7,6 +7,15 @@ class PostsController < ApplicationController
         @post = Post.find(params[:id])
     end
 
+    def new
+        @post = Post.new
+    end
+
+    def create
+        @post = Post.create(post_params)
+        render :index
+    end
+
 
     private
 

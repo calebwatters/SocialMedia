@@ -56,6 +56,19 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-font-size: 40px;
+  font-size: 40px;
   margin: 4px 2px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
+
+.new-post-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  -webkit-box-shadow: 10px 10px 19px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 19px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 19px -1px rgba(0, 0, 0, 0.3);
+}
+

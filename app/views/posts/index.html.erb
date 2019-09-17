@@ -1,10 +1,18 @@
+<head>
+
+</head>
+<body> 
 <div class="feed">
 
 <%@posts.each do |post|%>
 <div class="post">
     <h1><%=post.title%></h1>
+    <p><%=post.comment%></p>
+    <a>Likes: <%=post.likes%></a>
+    <button>I like this!</button>
 </div>
 
 <%=link_to "+", new_post_path, class: 'new-post-button'%>
 <%end%>
 </div>
+</body>
